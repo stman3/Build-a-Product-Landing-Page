@@ -1,3 +1,9 @@
+#page-wrapper {
+  background-color: floralwhite;
+  display: grid;
+  grid-row-gap: 100px;
+}
+
 /*header */
 #header {
   display: grid;
@@ -20,20 +26,36 @@ ul {
 
 /*shop*/
 #shopboxGrid {
-  padding-top: 240px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 100px;
-  column-gap: 100px;
-  padding-left: 100px;
+  justify-items: center;
+  grid-row-gap: 100px;
+}
+#shop {
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+#headerShop {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#textHeaderShop {
+  border: solid;
+  border-width: 1px;
+  width: 60px;
+  color: white;
+  background-color: black;
+  border-top-right-radius: 20%;
+  border-end-end-radius: 20%;
+  border-color: black;
+  font-size: 20px;
 }
 #iteam-img {
   width: 150px;
   height: 250px;
 }
 #iteam {
-  width: 150px;
-  height: 250px;
 }
 #iteam-img:hover {
   border-style: solid;
