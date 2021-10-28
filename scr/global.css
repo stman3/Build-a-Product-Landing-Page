@@ -14,7 +14,7 @@
 #nav-bar {
   display: inline-block;
 }
-ul {
+#headerList {
   padding-top: 20px;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -68,4 +68,26 @@ ul {
   opacity: 0.5;
 }
 
-/*shop*/
+/*membership*/
+
+#membershipGrid {
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+#membershipImage {
+  width: 100px;
+  height: 100px;
+}
+#membershipList {
+  font-size: 25px;
+}
+#GoldPriece {
+}
+
+#SilverPriece {
+}
+
+#membershipSeciton {
+}
