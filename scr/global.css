@@ -17,8 +17,12 @@
   font-size: 20px;
   background-color: goldenrod;
   border: 3px solid goldenrod;
+  width: 200px;
+  position: relative;
+  left: 20%;
 }
 #email {
+  width: 300px;
 }
 
 /*header */
@@ -152,4 +156,8 @@
 
 #buttonMembership:hover {
   opacity: 0.7;
+}
+
+#video {
+  justify-self: center;
 }
